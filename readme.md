@@ -27,6 +27,9 @@ Your personal access token as password on basic auth
 
 ```
 {
-  "event_type": "build"
+  "event_type": "build",
+  "client_payload": {
+    "env": "production"
+  }
 }
 ```

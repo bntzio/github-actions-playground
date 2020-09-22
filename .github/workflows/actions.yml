@@ -37,3 +37,5 @@ jobs:
           who-to-greet: Henry
       - name: Log Greeting Time
         run: echo "${{ steps.greet.outputs.time }}"
+      - name: Dispatch Payload
+        run: echo ${{ github.event.client_payload }}
